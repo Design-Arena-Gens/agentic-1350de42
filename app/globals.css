@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 12px;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* Smooth shadow for cards */
+.card {
+  @apply rounded-2xl border border-black/5 bg-white shadow-sm dark:border-white/10 dark:bg-gray-900;
+}
